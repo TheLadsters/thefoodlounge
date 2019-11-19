@@ -1,0 +1,128 @@
+body{
+background-image:url('../Pictures/foodievideo.jpeg');
+margin:0px;
+background-repeat:no-repeat;
+background-size:1800px 2000px;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+li{
+float:left;
+padding:13px;
+color:white;
+font-family:'Roboto';
+font-size:20px;
+}
+
+li:hover{
+background-color:#22ba5a;
+}
+
+.white{
+color:white;
+text-decoration:none;
+}
+
+.searchbox{
+position:relative;
+top:-3px;
+left:300px;
+}
+
+#watchandlearn{
+font-family:'Roboto';
+font-size:80px;
+color:white;
+position:relative;
+left:450px;
+font-weight:bolder;
+background-color:#333;
+padding:10px 10px 10px 10px;
+width:40%;
+}
+
+#videoposition{
+position:relative;
+left:100px;
+top:0px;
+}
+
+#videoposition2{
+position:relative;
+left:820px;
+bottom:200px;
+}
+
+#turttitle{
+font-family:'Roboto';
+background-color:#333;
+font-weight:bolder;
+font-size:35px;
+color:white;
+width:36%;
+position:relative;
+left:750px;
+bottom:400px;
+padding:10px 10px 10px 10px;
+}
+
+#turtdesc{
+font-family:'Roboto';
+background-color:#22ba5a;
+color:white;
+position:relative;
+left:850px;
+bottom:380px;
+font-size:30px;
+width:35%;
+padding: 10px 10px 10px 10px;
+}
+
+#lasagnatitle{
+font-family:'Roboto';
+background-color:#333;
+font-weight:bolder;
+font-size:35px;
+color:white;
+width:27%;
+position:relative;
+left:350px;
+bottom:600px;
+padding: 10px 10px 10px 10px;
+}
+
+#lasagnadesc{
+font-family:'Roboto';
+background-color:#22ba5a;
+color:white;
+position:relative;
+left:120px;
+bottom:600px;
+font-size:30px;
+width:34%;
+padding:10px 10px 10px 10px;
+}
+
+.footerbg{
+background-color:#333;
+color:white;
+font-size:12px;
+position:relative;
+padding: 25px 25px 25px 25px;
+font-family:'Roboto';
+width:98%;
+}
+
+#copyright{
+position:relative;
+left:620px;
+font-weight:bold;
+}
