@@ -8,7 +8,8 @@ The Food Lounge
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 <body>
-<ul>
+
+	<ul>
 	<li><a href="thefoodlounge.html" class="white">Home</a></li>
 	<li><a href="foodref.html" class="white">Recipe Refrigerator</a></li>
 	<li><a href="foodievideos.html" class="white">Foodie Videos</a></li>
@@ -25,38 +26,52 @@ The Food Lounge
 <img src="..\Pictures\knifeback.jpg" id="homepage">
 
 <div id="divider">
-<img src="..\Pictures\fb.png"width="26px" height="26px" > 
+	<img src="..\Pictures\fb.png"width="26px" height="26px" > 
+
 	<font id="fbpos">
-	The Food Lounge
+		The Food Lounge
 	</font>
-<img src="..\Pictures\twitter.png" width="28px" height="28px">
-<font id="twitterpos">
-@TheFoodLounge
-</font>
+
+	<img src="..\Pictures\twitter.png" width="28px" height="28px">
+
+	<font id="twitterpos">
+		@TheFoodLounge
+	</font>
+
+	<font id="subscribenewsletter">
+	<strong>
+		Subscribe to our Newsletter!
+	</strong>
+	</font>
+
+	<button onClick="promptBox()" id="button">
+		Subcribe Here!
+	</button>
 </div>
 
 <h1>WELCOME TO THE <br>FOOD LOUNGE</h1>
-<h2>A dedicated website to food.</h2>
+<h2>A website completely dedicated to food.</h2>
 
 
 <img src="..\Pictures\logo.png" id="logobo">
+
 <div class="container">
-<img id= "FoodieArticle" src="..\Pictures\Foodie Articles.png" alt="Food Article" class="image">
-<a href="foodarticle.html">
-<div class="middle">
-<div class="text">Foodie Articles</div>
-</div>
-</a>
+	<img id= "FoodieArticle" src="..\Pictures\Foodie Articles.png" alt="Food Article" class="image">
+	<a href="foodarticle.html">
+		<div class="middle">
+		<div class="text">Foodie Articles</div>
+		</div>
+	</a>
 </div>
 
 
 <div class="container">
-<img id= "FoodieFacts" src="..\Pictures\Food Facts.png" class="image" alt="Food Facts">
-<a href="foodfacts.html">
-<div class="middle2">
-<div class="text2">Food Facts</div>
-</div>
-</a>
+	<img id= "FoodieFacts" src="..\Pictures\Food Facts.png" class="image" alt="Food Facts">
+	<a href="foodfacts.html">
+		<div class="middle2">
+		<div class="text2">Food Facts</div>
+		</div>
+	</a>
 </div>
 
 <div class="container">
@@ -82,4 +97,12 @@ The Food Lounge
 © The Food Lounge 2019. All rights reserved.
 </font>
 </div>
+
+
+<script>
+function promptBox(){
+	var inputname=prompt("Subscribe to our newsletter by giving us your email!","Place your Email Here!")	
+}
+</script>
+
 </body>

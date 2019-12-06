@@ -54,8 +54,8 @@ Foodie Articles
 			<a href="https://www.linkedin.com/"><img src="..\Pictures\linkedin.png" width="26px" height="26px"></a>
 				
 					<font id="likeordislike">Like or dislike this article!</font>
-			<a href="#"><img src="..\Pictures\like.png" id="like" ></a>
-			<a href="#"><img src="..\Pictures\dislike.png" id="dislike"></a>
+			<a href="#"><img src="..\Pictures\like.png" id="like" onClick="highlightLike()"></a>
+			<a href="#"><img src="..\Pictures\dislike.png" id="dislike" onClick="highlightDislike()"></a>
 				
 		</div>
 
@@ -87,4 +87,15 @@ type of effect on a human.
 <div class="footerbg">
 <font id="copyright">© The Food Lounge 2019. All rights reserved.</font>
 </div>
+
+
+<script>
+function highlightLike(){
+	document.getElementById("like").src="../Pictures/like2.png";
+}
+
+function highlightDislike(){
+	document.getElementById("dislike").src="../Pictures/dislike2.png";
+}
+</script>
 </body>
